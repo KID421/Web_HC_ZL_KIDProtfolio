@@ -225,6 +225,18 @@ form {
     }
 }
 
+footer {
+    background: $color-gray;
+    padding: 50px 0;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: $color-white;
+        
+        padding: 20px 0;
+    }
+}
 
 // 統一樣式
 // 按鈕樣式

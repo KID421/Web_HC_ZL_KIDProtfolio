@@ -301,6 +301,18 @@ form textarea::placeholder {
   font-size: 14px;
 }
 
+footer {
+  background: #aaa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f8f8f8;
+  padding: 20px 0;
+}
+
 .btn {
   background: #252525;
   color: #f8f8f8;
