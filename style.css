@@ -246,8 +246,32 @@ form {
 }
 
 form input {
-  width: 45%;
+  width: 49%;
   padding: 10px;
+}
+
+form input::-webkit-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form input:-ms-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form input::-ms-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form input::placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form input[type=email] {
+  float: right;
 }
 
 form textarea {
@@ -255,6 +279,26 @@ form textarea {
   height: 300px;
   margin: 30px 0;
   padding: 10px;
+}
+
+form textarea::-webkit-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form textarea:-ms-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form textarea::-ms-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form textarea::placeholder {
+  color: #aaa;
+  font-size: 14px;
 }
 
 .btn {
