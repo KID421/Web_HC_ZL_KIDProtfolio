@@ -22,10 +22,10 @@
             <a href="">聯絡</a>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/channel/UCPUWAiW3afclhglw4MY_ucg"><img src="./img/icon_yt.png" alt="Youtube"></a>
-            <a href="https://www.instagram.com/kid77421/"><img src="./img/icon_ig.png" alt="Instagram"></a>
-            <a href="https://zh-tw.facebook.com/childworld07"><img src="./img/icon_fb.png" alt="Facebook"></a>
-            <a href="https://github.com/KID421"><img src="./img/icon_gh.png" alt="Git Hub"></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCPUWAiW3afclhglw4MY_ucg"><img src="./img/icon_yt.png" alt="Youtube"></a>
+            <a target="_blank" href="https://www.instagram.com/kid77421/"><img src="./img/icon_ig.png" alt="Instagram"></a>
+            <a target="_blank" href="https://zh-tw.facebook.com/childworld07"><img src="./img/icon_fb.png" alt="Facebook"></a>
+            <a target="_blank" href="https://github.com/KID421"><img src="./img/icon_gh.png" alt="Git Hub"></a>
         </div>
     </nav>
 
@@ -47,28 +47,73 @@
 
     <!-- 最新消息 -->
     <section id="news">
-        <h1>最新消息</h1>
+        <h1 class="title-big">最新消息</h1>
         <div id="news-content">
             <div class="news-card">
                 <img src="./img/news1.jpg" alt="">
-                <h3>標題三</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, molestiae.</p>
-                <button class="btn">按鈕</button>
+                <h3>【前端教學】如何做出動態按鈕</h3>
+                <p>如何設計常見的網頁動態按鈕效果呢？網頁的按鈕效果這麼多種該如何選擇以及該使用哪個語言處理效果？</p>
+                <button class="btn">查看更多</button>
             </div>
             <div class="news-card">
                 <img src="./img/news2.jpg" alt="">
-                <h3>標題三</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, harum.</p>
-                <button class="btn">按鈕</button>
+                <h3>【遊戲 Vlog】2D 橫向卷軸遊戲</h3>
+                <p>KID 如何在一個禮拜開發 2D 橫向卷軸遊戲，從無到有在一個禮拜有辦法做出來嗎？</p>
+                <button class="btn">查看更多</button>
             </div>
             <div class="news-card">
                 <img src="./img/news3.jpg" alt="">
-                <h3>標題三</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, eveniet.</p>
-                <button class="btn">按鈕</button>
+                <h3>【遊戲產品】動物派對</h3>
+                <p>最新上架遊戲【動物派對】，趕快來 Steam 上看看並且找親朋好友一起玩玩這款友情破壞遊戲喔。</p>
+                <button class="btn">查看更多</button>
             </div>
         </div>
     </section>
+
+    <!-- 最新作品 -->
+    <h1 class="title-big">最新作品</h1>
+    <div id="works">
+        <div class="work-card">
+            <img src="./img/work1.jpg" alt="">
+            <h2>跑跑小屁孩</h2>
+            <small>#遊戲設計, #Unity, #2D, #跑酷, #KID</small>
+        </div>
+        <div class="work-card">
+            <img src="./img/work2.jpg" alt="">
+            <h2>俄羅斯方塊 KID 版</h2>
+            <small>#遊戲設計, #Unity, #2D, #俄羅斯方塊, #KID</small>
+        </div>
+        <div class="work-card">
+            <img src="./img/work3.jpg" alt="">
+            <h2>動物派對</h2>
+            <small>#遊戲設計, #Unity, #3D, #Steam, #KID</small>
+        </div>
+        <div class="work-card">
+            <img src="./img/work4.jpg" alt="">
+            <h2>2021 新年快樂</h2>
+            <small>#插畫設計, #illustrator, #2021, #小孩塗鴉牆</small>
+        </div>
+        <div class="work-card">
+            <img src="./img/work5.jpg" alt="">
+            <h2>Vlog 2D 橫向卷軸遊戲</h2>
+            <small>#遊戲設計, #Unity, #2D, #Vlog, #KID</small>
+        </div>
+        <div class="work-card">
+            <img src="./img/work6.jpg" alt="">
+            <h2>網頁動態按鈕</h2>
+            <small>#前端網頁, #webdesign, #動態按鈕, #KID</small>
+        </div>
+    </div>
+
+    <!-- 聯絡 KID -->
+    <h1 class="title-big">聯絡 KID</h1>
+    <!-- 表單元素 action="" 傳遞給後端頁面，通常是 XXX.php -->
+    <form action="">
+        <input type="text" name="user-name">
+        <input type="email" name="user-email">
+        <textarea></textarea>
+        <input type="submit" value="送出">
+    </form>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

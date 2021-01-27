@@ -16,8 +16,11 @@ nav {
   text-align: center;
   background: #f8f8f8;
   padding: 35px 0;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 3;
+  width: 100%;
 }
 
 nav #link a {
@@ -173,8 +176,8 @@ nav #social a img {
 }
 
 #news #news-content .news-card {
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
 }
 
 #news #news-content img {
@@ -186,24 +189,79 @@ nav #social a img {
 
 #news #news-content h3 {
   text-align: center;
-  padding: 10px;
+  padding: 20px 0 0;
 }
 
 #news #news-content p {
   line-height: 1.5;
   font-size: 14px;
-  padding: 20px 20px 30px;
+  padding: 20px 30px 30px;
+}
+
+#works {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#works .work-card {
+  text-align: center;
+}
+
+#works .work-card:focus {
+  outline: none;
+}
+
+#works .work-card img {
+  width: 230px;
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+#works .work-card img:hover {
+  border-radius: 20px;
+}
+
+#works .work-card h2 {
+  padding: 20px 0;
+}
+
+#works .work-card small {
+  color: #aaa;
+}
+
+form {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+form input {
+  width: 45%;
+  padding: 10px 5px;
+}
+
+form textarea {
+  width: 100%;
+  height: 300px;
+  margin: 30px 0;
 }
 
 .btn {
-  background: #aaa;
+  background: #252525;
   color: #f8f8f8;
   padding: 15px 0;
   display: block;
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
   font-size: 14px;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 5px;
   margin-bottom: 20px;
   -webkit-transition: 0.5s;
@@ -211,8 +269,15 @@ nav #social a img {
 }
 
 .btn:hover {
-  border: 1px solid #aaa;
-  background: #f8f8f8;
-  color: #aaa;
+  border: 1px solid #252525;
+  background: white;
+  color: #252525;
+}
+
+.title-big {
+  text-align: center;
+  padding: 50px 0 40px;
+  font-size: 30px;
+  font-weight: 900;
 }
 /*# sourceMappingURL=style.css.map */
