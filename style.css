@@ -172,6 +172,11 @@ nav #social a img {
   grid-gap: 20px;
 }
 
+#news #news-content .news-card {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 #news #news-content img {
   width: 100%;
   height: 300px;
@@ -187,17 +192,27 @@ nav #social a img {
 #news #news-content p {
   line-height: 1.5;
   font-size: 14px;
-  padding: 0 20px 30px;
+  padding: 20px 20px 30px;
 }
 
 .btn {
   background: #aaa;
   color: #f8f8f8;
-  padding: 15px 30px;
+  padding: 15px 0;
   display: block;
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   font-size: 14px;
   border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  color: #aaa;
 }
 /*# sourceMappingURL=style.css.map */
