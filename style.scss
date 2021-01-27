@@ -200,12 +200,14 @@ form {
         width: 49%;
         padding: 10px;
 
+        // 預設文字 ::placeholder
         &::placeholder {
             color: $color-gray;
             font-size: 14px;
         }
     }
-    
+
+    // 利用屬性選取器，語法：元素[屬性=值]
     input[type=email] {
         float: right;
     }
