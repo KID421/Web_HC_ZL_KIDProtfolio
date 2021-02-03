@@ -5,6 +5,8 @@ $color-white: #f8f8f8;
 $color-black: #252525;
 $text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
 $box-shawod: 0 5px 7px rgba(0, 0, 0, 0.2);
+$tablet: 1024px;                                    // 平板尺寸
+$mobile: 767px;                                     // 手機尺寸
 
 * {
     margin: 0;
@@ -14,6 +16,19 @@ $box-shawod: 0 5px 7px rgba(0, 0, 0, 0.2);
 }
 
 // 導覽列
+#menu {
+    background-image: url(./img/menu.png);
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: none;
+
+    @media screen and (max-width: $tablet) {
+        display: block;
+        margin: 0 10px 0 auto;
+    }
+}
+
 nav {
     display: grid;
     grid-template-columns: 15% auto 15%;
@@ -25,7 +40,16 @@ nav {
     z-index: 3;
     width: 100%;
 
+    @media screen and (max-width: $tablet) {
+        grid-template-columns: 100% 0;
+    }
+
     #link {
+
+        @media screen and (max-width: $tablet) {
+            display: none;
+        }
+
         a {
             color: $color-black;
             text-decoration: none;
@@ -43,6 +67,11 @@ nav {
     }
 
     #social {
+
+        @media screen and (max-width: $tablet) {
+            display: none;
+        }
+
         a {
             transition: 0.3s;
             padding: 0 10px;

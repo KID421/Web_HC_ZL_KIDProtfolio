@@ -8,6 +8,21 @@
           box-sizing: border-box;
 }
 
+#menu {
+  background-image: url(./img/menu.png);
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  #menu {
+    display: block;
+    margin: 0 10px 0 auto;
+  }
+}
+
 nav {
   display: -ms-grid;
   display: grid;
@@ -21,6 +36,19 @@ nav {
   position: fixed;
   z-index: 3;
   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    -ms-grid-columns: 100% 0;
+        grid-template-columns: 100% 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav #link {
+    display: none;
+  }
 }
 
 nav #link a {
@@ -38,6 +66,12 @@ nav #link a:hover {
   color: #aaa;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+@media screen and (max-width: 1024px) {
+  nav #social {
+    display: none;
+  }
 }
 
 nav #social a {
