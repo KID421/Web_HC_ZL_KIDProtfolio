@@ -301,12 +301,27 @@ nav #social a img {
   padding: 100px 0;
 }
 
+@media screen and (max-width: 1024px) {
+  #news {
+    width: 100%;
+    padding: 50px 20px;
+  }
+}
+
 #news #news-content {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  #news #news-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
 }
 
 #news #news-content .news-card {

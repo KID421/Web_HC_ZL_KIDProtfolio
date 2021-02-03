@@ -184,10 +184,20 @@ nav {
     margin: 0 auto;
     padding: 100px 0;
 
+    @media screen and (max-width: $tablet) {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
     #news-content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 20px;
+
+        @media screen and (max-width: $mobile) {
+            grid-template-columns: 1fr;
+            grid-gap: 50px;
+        }
 
         .news-card {
             box-shadow: $box-shawod;
