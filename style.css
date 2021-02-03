@@ -399,9 +399,23 @@ form {
   padding: 20px 0 100px;
 }
 
+@media screen and (max-width: 1024px) {
+  form {
+    width: 100%;
+    padding: 20px 20px 100px;
+  }
+}
+
 form input {
   width: 49%;
   padding: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  form input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 form input::-webkit-input-placeholder {

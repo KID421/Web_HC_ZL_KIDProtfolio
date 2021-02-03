@@ -269,9 +269,19 @@ form {
     margin: 0 auto;
     padding: 20px 0 100px;
 
+    @media screen and (max-width: $tablet) {
+        width: 100%;
+        padding: 20px 20px 100px;
+    }
+
     input {
         width: 49%;
         padding: 10px;
+
+        @media screen and (max-width: $tablet) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
 
         // 預設文字 ::placeholder
         &::placeholder {
