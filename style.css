@@ -111,7 +111,7 @@ nav #social a img {
   -webkit-transition: 0.5s !important;
   transition: 0.5s !important;
   font-size: 36px !important;
-  font-family: 'Passion One', cursive;
+  font-family: "Passion One", cursive;
   letter-spacing: 3px;
   padding-left: 3px;
 }
@@ -122,7 +122,7 @@ nav #social a img {
 }
 
 .logo span {
-  font-family: 'Passion One', cursive;
+  font-family: "Passion One", cursive;
   vertical-align: 3px;
   font-size: 30px;
 }
@@ -353,6 +353,12 @@ nav #social a img {
   padding: 100px 0;
 }
 
+@media screen and (max-width: 1024px) {
+  #works {
+    width: 100%;
+  }
+}
+
 #works .work-card {
   text-align: center;
 }
@@ -418,7 +424,7 @@ form input::placeholder {
   font-size: 14px;
 }
 
-form input[type=email] {
+form input[type="email"] {
   float: right;
 }
 
