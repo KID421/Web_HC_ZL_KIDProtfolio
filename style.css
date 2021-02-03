@@ -23,6 +23,15 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  #menu {
+    margin: 0 20px 0 auto;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+  }
+}
+
 nav {
   display: -ms-grid;
   display: grid;
