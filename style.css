@@ -54,6 +54,12 @@ nav {
   }
 }
 
+@media screen and (max-width: 767px) {
+  nav {
+    padding: 20px 0;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   nav #link {
     display: none;
@@ -143,6 +149,12 @@ nav #social a img {
   color: #f8f8f8;
 }
 
+@media screen and (max-width: 1024px) {
+  #banner .banner1 {
+    background-size: cover;
+  }
+}
+
 #banner .banner1:focus {
   outline: none;
 }
@@ -154,9 +166,31 @@ nav #social a img {
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
 }
 
+@media screen and (max-width: 1024px) {
+  #banner .banner1 h1 {
+    padding: 550px 0 50px 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #banner .banner1 h1 {
+    padding: 380px 0 50px 20px;
+    font-size: 32px;
+  }
+}
+
 #banner .banner1 h2 {
   font-size: 24px;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+@media screen and (max-width: 767px) {
+  #banner .banner1 h2 {
+    font-size: 16px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 2;
+  }
 }
 
 #banner .banner2 {
@@ -164,6 +198,12 @@ nav #social a img {
   height: 100vh;
   text-align: center;
   color: #f8f8f8;
+}
+
+@media screen and (max-width: 1024px) {
+  #banner .banner2 {
+    background-size: cover;
+  }
 }
 
 #banner .banner2:focus {
@@ -177,9 +217,31 @@ nav #social a img {
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
 }
 
+@media screen and (max-width: 1024px) {
+  #banner .banner2 h1 {
+    padding: 550px 0 50px 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #banner .banner2 h1 {
+    padding: 380px 0 50px 20px;
+    font-size: 32px;
+  }
+}
+
 #banner .banner2 h2 {
   font-size: 24px;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+@media screen and (max-width: 767px) {
+  #banner .banner2 h2 {
+    font-size: 16px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 2;
+  }
 }
 
 #banner .banner3 {
@@ -187,6 +249,12 @@ nav #social a img {
   height: 100vh;
   text-align: center;
   color: #f8f8f8;
+}
+
+@media screen and (max-width: 1024px) {
+  #banner .banner3 {
+    background-size: cover;
+  }
 }
 
 #banner .banner3:focus {
@@ -200,9 +268,31 @@ nav #social a img {
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
 }
 
+@media screen and (max-width: 1024px) {
+  #banner .banner3 h1 {
+    padding: 550px 0 50px 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #banner .banner3 h1 {
+    padding: 380px 0 50px 20px;
+    font-size: 32px;
+  }
+}
+
 #banner .banner3 h2 {
   font-size: 24px;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+@media screen and (max-width: 767px) {
+  #banner .banner3 h2 {
+    font-size: 16px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 2;
+  }
 }
 
 #news {
